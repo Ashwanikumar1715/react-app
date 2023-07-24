@@ -10,6 +10,7 @@ nav {
   background-color: $first;
   top: 0%;
   z-index: 10;
+  box-shadow: 0 0 10px rgb(128, 205, 238);
 
   > h1 {
     text-transform: uppercase;
@@ -23,6 +24,7 @@ nav {
     > a {
       color: $dark;
       margin: 1rem;
+
 
       &:hover {
         color: $third;

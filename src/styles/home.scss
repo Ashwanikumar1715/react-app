@@ -20,9 +20,10 @@
     h1 {
       font: 400 6rem $text1;
       color: $first;
+      text-shadow: 0 0 10px grey;
     }
     p {
-      font: 900 1rem $text1;
+      font: 900 2rem $text1;
       color: $first;
     }
   }
@@ -33,7 +34,7 @@
     height: 100%;
     position: absolute;
     background: no-repeat center/auto url("../assets/1.png");
-    filter: blur(3px);
+    filter: blur(4px);
     border-radius: 0 0 200px 200px;
   }
 }
@@ -50,6 +51,7 @@
 
   > img {
     width: 30%;
+   
     animation: imgUp 0.7s linear infinite alternate;
   }
 
